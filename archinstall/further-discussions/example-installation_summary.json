@@ -1,0 +1,55 @@
+{
+  "installation_summary": {
+    "title": "Ready to install",
+    "hostname": "hostname",
+    "kernels": "linux",
+    "automatic_time_sync_ntp": "Yes",
+    "timezone": "US/Pacific",
+    "pacman": "Color enabled",
+    "mirrors_and_repositories": "Mirror regions \"United States\"",
+    "bootloader": {
+      "type": "Systemd-boot",
+      "uki": "enabled"
+    },
+    "disk_configuration": {
+      "type": "Manual layout",
+      "devices": "/dev/nvme0n1"
+    },
+    "swap": {
+      "status": "Zram enabled",
+      "zram_algorithm": "zstd"
+    },
+    "authentication": {
+      "root_password": "set",
+      "configured_users": 1
+    },
+    "locales": {
+      "keyboard_layout": "us",
+      "locale_language": "en_US.UTF-8",
+      "locale_encoding": "UTF-8",
+      "console_font": "default8x16"
+    },
+    "profile": {
+      "type": "Desktop",
+      "graphics_driver": "All open-source",
+      "display_manager": "ly greeter"
+    },
+    "network": {
+      "network_manager": "Use Network Manager (iwd backend)",
+      "bluetooth": "enabled"
+    },
+    "application": {
+      "audio_server": "pipewire",
+      "power_management": "power-profiles-daemon",
+      "print_service": "enabled",
+      "firewall": "ufw",
+      "extra_fonts": [
+        "noto-fonts",
+        "noto-fonts-emoji",
+        "noto-fonts-cjk",
+        "ttf-liberation",
+        "ttf-dejavu"
+      ]
+    }
+  }
+}
