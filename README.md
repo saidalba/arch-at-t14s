@@ -26,6 +26,7 @@ This repo is a personal, living reference for setting up and maintaining Arch Li
 │   ├── bluetooth-connection.md
 │   ├── hibernation.md
 │   ├── power-manegement.md            # TLP vs power-profiles-daemon
+│   ├── remap-power-button.md          # power button: short press suspend, long press poweroff
 │   ├── steps.md                       # (gitignored, local scratch notes)
 │   └── to-do.md                       # (gitignored, local scratch notes)
 ├── sys-specs/
