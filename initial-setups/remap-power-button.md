@@ -25,7 +25,8 @@ HandlePowerKeyLongPress=poweroff
 sudo systemctl restart systemd-logind
 ```
 
-Restarting `systemd-logind` can occasionally hiccup an active graphical session on some setups. If you'd rather not risk that, reboot instead and the drop-in takes effect on the next boot.
+> [!NOTE]
+> Restarting `systemd-logind` can occasionally hiccup an active graphical session on some setups. If you'd rather not risk that, reboot instead and the drop-in takes effect on the next boot.
 
 **Step 4: Verify**
 
@@ -40,6 +41,19 @@ Then test on real hardware: a short press should suspend, holding it down for a 
 If nothing happens on short press, check for a conflicting `bindsym XF86PowerOff` in the Sway config. `logind` normally grabs the power button at the input-device level before Sway ever sees it, but it's worth ruling out.
 
 `HandleRebootKey` / `HandleRebootKeyLongPress` exist too, for a separate reboot combo if you ever want one.
+
+If you want to see live logs of button behavoiur:
+
+```bash
+sudo journalctl -u systemd-logind.service -f
+```
+Press your power button. You should instantly see text like Power key pressed appear in the log stream.
+
+Or, for log history:
+
+```bash
+sudo journalctl -u systemd-logind.service | grep -i "power"
+```
 
 ## Why `logind.conf.d/` over `HandlePowerKey=ignore` + a Sway keybinding
 
