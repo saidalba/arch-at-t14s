@@ -27,6 +27,7 @@ This repo is a personal, living reference for setting up and maintaining Arch Li
 │   ├── hibernation.md
 │   ├── power-manegement.md            # TLP vs power-profiles-daemon
 │   ├── remap-power-button.md          # power button: short press suspend, long press poweroff
+│   ├── remap-keyboard-keys.md         # modifier/key remaps system-wide via keyd
 │   ├── steps.md                       # (gitignored, local scratch notes)
 │   └── to-do.md                       # (gitignored, local scratch notes)
 ├── sys-specs/
