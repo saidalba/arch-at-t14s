@@ -92,7 +92,7 @@ sudo systemctl enable --now keyd
 
 If it started and then died, the journal will show the config parse error, including which line it choked on.
 
-## Reference: Primary modifier eys in major OS
+## Reference: Primary modifier keys in major OS
 
 
 | Function | Windows | macOS | Linux |
