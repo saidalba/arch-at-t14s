@@ -24,6 +24,7 @@ This repo is a personal, living reference for setting up and maintaining Arch Li
 │   └── aur-list.txt                   # AUR package list
 ├── initial-setups/                     # hardware-specific notes & fixes
 │   ├── bluetooth-connection.md
+│   ├── chezmoi-dotfiles.md            # install & configure chezmoi, git remote setup
 │   ├── hibernation.md
 │   ├── power-manegement.md            # TLP vs power-profiles-daemon
 │   ├── remap-power-button.md          # power button: short press suspend, long press poweroff
