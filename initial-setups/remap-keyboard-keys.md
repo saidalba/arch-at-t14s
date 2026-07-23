@@ -91,3 +91,14 @@ sudo systemctl enable --now keyd
 ```
 
 If it started and then died, the journal will show the config parse error, including which line it choked on.
+
+## Reference: Primary modifier eys in major OS
+
+
+| Function | Windows | macOS | Linux |
+| :--- | :--- | :--- | :--- |
+| **Primary Command** | `Ctrl` | `Cmd` (⌘) | `Ctrl` |
+| **Secondary Command** | `Alt` | `Option` (⌥) | `Alt` |
+| **System / Application Launcher** | `Windows Key` (⊞) | `Cmd` (⌘) | `Super` (or `Meta`) |
+| **Terminal / App Context** | `Ctrl` | `Ctrl` | `Ctrl` |
+| **Alternate Graphics** | `AltGr` | `Option` (⌥) | `AltGr` |
