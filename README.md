@@ -30,6 +30,7 @@ This repo is a personal, living reference for setting up and maintaining Arch Li
 │   ├── remap-power-button.md          # power button: short press suspend, long press poweroff
 │   ├── remap-keyboard-keys.md         # modifier/key remaps system-wide via keyd
 │   ├── remap-hhkb-keys.md             # HHKB-specific keyd remaps, scoped by vendor:product ID
+│   ├── gammastep.md                   # install & configure gammastep, autostart with Sway
 │   ├── steps.md                       # (gitignored, local scratch notes)
 │   └── to-do.md                       # (gitignored, local scratch notes)
 ├── sys-specs/

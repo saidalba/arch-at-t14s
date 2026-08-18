@@ -13,6 +13,7 @@ efibootmgr
 fastfetch
 firefox
 foot
+gammastep
 git
 grim
 gst-plugin-pipewire
